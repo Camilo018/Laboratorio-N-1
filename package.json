@@ -4,7 +4,8 @@
   "description": "Laboratorio N1 tolerancia a fallos y disponibilidad monitoreo",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run" : "nodemon ./server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Camilo018/Laboratorio-N-1/issues"
   },
-  "homepage": "https://github.com/Camilo018/Laboratorio-N-1#readme"
+  "homepage": "https://github.com/Camilo018/Laboratorio-N-1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
