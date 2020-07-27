@@ -1,4 +1,4 @@
 #!/bin/bash
 
 git pull
-npm stop
+pm2 restart server.js
