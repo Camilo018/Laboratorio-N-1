@@ -15,7 +15,7 @@ validationFunction(){
       exit 0
    else
       echo 'Tiempo de respuesta excedido, se procedera a tomar acciones en el servidor'
-      sshpass -p "12345" ssh -t -o StrictHostKeyChecking=no kamil018@192.168.0.119 'cd git_environment;cd Laboratorio-N-1;sudo -S ./reinicio.sh'
+      sshpass -p "12345" ssh -t -o StrictHostKeyChecking=no kamil018@192.168.0.119 'cd git_environment;cd Laboratorio-N-1;sudo sh reinicio.sh'
    fi
 }
 while true; do reqFunction & sleep 10; done

@@ -1,3 +1,4 @@
 #!/bin/bash
 
-reboot
+git pull
+npm start
