@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ps
 git pull
+npm restart
