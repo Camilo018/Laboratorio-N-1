@@ -2,7 +2,7 @@
 
 reqFunction(){
    time_total=$(curl -o /dev/null -L -qs -w "%{time_total}" http://192.168.0.119:3200/)
-   time_required=0,0013
+   time_required=0,0020
    echo "El tiemo total de respuesta es: $time_total"
    echo "El tiempo requerido de respuesta es: $time_required"
    validationFunction
